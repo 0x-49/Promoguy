@@ -1,0 +1,112 @@
+### Thesis: An In-Depth Analysis of PromoGuy US and Its Role in Value-Driven Sports Betting
+
+#### Abstract
+PromoGuy US (referred to as PromoGuy) positions itself as a value-driven (+EV) sports betting community and service provider. This analysis explores the company’s consumer profiles, product offerings, pricing structure, tools, functionalities, and real-world case studies, supported by relevant multimedia sources such as YouTube videos, TikToks, and Twitter/X posts. The focus is on how PromoGuy leverages probability theory, behavioral economics, and data analytics to deliver consistent profitability for its users.
+
+---
+
+### 1. Introduction to PromoGuy US
+
+PromoGuy US is a subscription-based platform offering a Discord community and betting tools aimed at exploiting positive expected value (+EV) opportunities in sportsbooks. Founded by experienced bettors, the platform emphasizes transparency, education, and actionable strategies for both beginner and advanced bettors. As of December 2023, the platform boasts over $100,000 in tracked profits, making it a leader in the +EV betting niche.
+
+**Core Value Proposition:**  
+PromoGuy US transforms complex mathematical models into digestible strategies, empowering users to exploit market inefficiencies and leverage sportsbook promotions systematically.  
+
+#### References:
+- [x.com](https://x.com/ThePromoguy123/status/1799464836486541354): Example of a +EV bet with detailed EV calculation for DraftKings odds boost.
+- [youtube.com/@promoguyus](https://youtube.com/shorts/0pWto2nOnrc?si=jbrP1kb_a3OAfUU5): 2024 profit recap highlighting monthly averages and community success stories.
+
+---
+
+### 2. Consumer Profiles
+
+#### 2.1 **Beginner Bettors**
+- **Demographics:** Casual gamblers, college students, or individuals looking to supplement income with strategic betting.
+- **Needs:** Education on +EV principles, basic tools for identifying mispriced odds, and guidance through initial bets.
+- **Use Case:** A beginner might join the Discord channel to learn about odds boosts like Aaron Judge or Juan Soto hitting a home run ([x.com](https://x.com/ThePromoguy123/status/1796291700564050129)). They follow step-by-step instructions from contributors to execute bets confidently.
+
+#### 2.2 **Intermediate Bettors**
+- **Demographics:** Semi-professional bettors who understand fundamental concepts but lack access to advanced analytics.
+- **Needs:** Access to contributor channels, daily picks, and state-specific betting strategies.
+- **Use Case:** An intermediate bettor may utilize the "Guess The Score" feature within the Discord community to engage with peers while refining their predictive accuracy.
+
+#### 2.3 **Professional Bettors**
+- **Demographics:** Full-time bettors managing significant bankrolls.
+- **Needs:** High-level insights, custom betting models, and real-time updates on promotional opportunities.
+- **Use Case:** A professional bettor leverages PromoGuy’s tools to calculate EV on DraftKings’ "Goal in first ten minutes" boost ([x.com](https://x.com/ThePromoguy123/status/1799464836486541354)), ensuring optimal unit allocation.
+
+---
+
+### 3. Offerings and Functionalities
+
+#### 3.1 **Discord Community**
+The backbone of PromoGuy’s ecosystem is its Discord server, featuring:
+- **Contributor Channels:** Daily +EV picks provided by experts.
+- **Active Discussion Threads:** Members discuss ongoing games, share insights, and troubleshoot issues.
+- **Educational Content:** Workshops on EV calculations, bankroll management, and Arbitrage vs. +EV betting ([youtube.com/@promoguyus](https://youtube.com/@promoguyus)).
+
+#### 3.2 **Tools and Features**
+PromoGuy provides specialized tools that allow members to:
+- Create their own +EV bets using historical data and statistical models.
+- Track performance with profit-tracking sheets.
+- Participate in spin-the-wheel games for exclusive boosts ([x.com](https://x.com/roiguy123/status/1805388808797790672)).
+
+#### 3.3 **State-Specific Boosts**
+Given varying regulations across U.S. states, PromoGuy tailors its recommendations to ensure compliance and maximize returns. For instance, a Florida-based user would receive targeted bets compatible with local sportsbooks.
+
+---
+
+### 4. Pricing Structure
+
+#### 4.1 **Subscription Tiers**
+PromoGuy offers a single tier priced at **$19/month** with a one-time setup fee of **$1.00**:
+- **Access to Discord Channels:** Includes 5 contributor channels.
+- **Comprehensive Betting Tools:** EV calculators, tracking sheets, etc.
+- **State-Specific Evaluations:** Tailored betting strategies based on location.
+- **Affiliate Program:** Earn 30% commission for referring new members.
+
+#### 4.2 **Free vs. Paid Content**
+While PromoGuy offers free content via Twitter/X ([x.com](https://x.com/Matthewp07/status/1804367882840654059)), the premium Discord provides deeper insights and proprietary tools, justifying the subscription cost.
+
+---
+
+### 5. Real-World Case Studies
+
+#### 5.1 **Case Study 1: DraftKings Odds Boost Analysis**
+In June 2024, PromoGuy identified a +10.94% EV opportunity on DraftKings, specifically a "Goal in First 10 Minutes" market ([x.com](https://x.com/ThePromoguy123/status/1799464836486541354)). By placing a 0.4-unit bet on this boost, users secured steady returns without excessive risk.
+
+#### 5.2 **Case Study 2: Fanduel Super Boost**
+ROI Guy highlighted a strong super boost on DraftKings, advising a maximum stake of 2.5 units due to its high EV ([x.com](https://x.com/roiguy123/status/1805388808797790672)). This decision was backed by detailed calculations shared within the Discord community.
+
+#### 5.3 **Case Study 3: Fantasy Sports Integration**
+Matt’s X post showcased successful fantasy sports bets, including Taijuan Walker U23.5 fantasy points and Brady Singer U4.5 strikeouts ([x.com](https://x.com/Matthewp07/status/1804367882840654059)). These bets demonstrated PromoGuy’s ability to diversify beyond traditional sports markets.
+
+---
+
+### 6. Educational Resources and Media
+
+#### 6.1 **YouTube Videos**
+- **"Breaking Down +EV Betting"** ([youtube.com/@promoguyus]): Explains the differences between +EV and Arbitrage betting.
+- **"2024 Profit Recap"** ([youtube.com/shorts/0pWto2nOnrc?si=jbrP1kb_a3OAfUU5]): Highlights top contributors’ earnings and parlays.
+
+#### 6.2 **TikTok Content**
+- **@promoguytiktok:** Short-form videos breaking down weekly promotions and betting tips.
+- Specific example: A TikTok video explaining how to exploit Fanduel’s welcome bonus.
+
+#### 6.3 **Other Media**
+- **Instagram (@promoguyus):** Visual infographics summarizing monthly profits and featured success stories.
+- **Instagram Polls:** Engage followers by predicting match outcomes and discussing results.
+
+---
+
+### 7. Conclusion
+
+PromoGuy US exemplifies the intersection of sports betting and quantitative analysis, offering a robust platform for bettors to achieve consistent profitability. By catering to diverse consumer profiles and providing a suite of tools and resources, PromoGuy continues to dominate the +EV niche. Its commitment to transparency, education, and community engagement ensures sustained growth and success in an increasingly competitive industry.
+
+---
+
+### References
+- [x.com/ThePromoguy123](https://x.com/ThePromoguy123/status/1799464836486541354): Odds boost analysis.
+- [youtube.com/@promoguyus](https://youtube.com/@promoguyus): Educational videos.  
+- [tiktok.com/@promoguy](https://tiktok.com/@promoguy): Short-form educational content.  
+- PromoGuy Whop Landing Page: Pricing details and testimonials.
