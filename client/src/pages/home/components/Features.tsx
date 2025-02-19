@@ -10,99 +10,109 @@ import {
   ChartBar,
   MessageSquare,
   Zap,
-  Binary
+  Binary,
+  Check
 } from "lucide-react";
 
 const features = [
   {
     icon: <Calculator className="h-8 w-8" />,
     title: "Data-Driven Analysis",
-    description: "Advanced mathematical models and statistical analysis for optimal betting decisions",
+    description: "Leverage advanced mathematical models and statistical analysis for precise betting decisions",
     details: [
-      "Real-time odds evaluation",
-      "Probability calculation tools",
-      "Risk assessment metrics"
-    ]
+      "Advanced odds comparison engine",
+      "Real-time probability calculations",
+      "Risk-reward optimization tools"
+    ],
+    benefits: "Make informed decisions based on comprehensive data analysis"
   },
   {
     icon: <TrendingUp className="h-8 w-8" />,
     title: "+EV Betting Strategy",
-    description: "Focus on positive expected value plays for consistent long-term profitability",
+    description: "Focus on positive expected value plays that ensure consistent long-term profitability",
     details: [
-      "Value identification system",
-      "Profit probability analysis",
-      "Long-term ROI tracking"
-    ]
+      "Automated value identification",
+      "Advanced profit tracking system",
+      "ROI optimization tools"
+    ],
+    benefits: "Maximize your returns with proven mathematical strategies"
   },
   {
     icon: <Users className="h-8 w-8" />,
     title: "Expert Community",
-    description: "Learn from experienced bettors and share insights in our active Discord community",
+    description: "Join a thriving community of experienced bettors sharing insights and strategies",
     details: [
-      "Live strategy discussions",
-      "Member success stories",
-      "Collaborative learning"
-    ]
+      "24/7 strategy discussions",
+      "Expert mentorship program",
+      "Collaborative analysis sessions"
+    ],
+    benefits: "Learn from successful bettors and share winning strategies"
   },
   {
     icon: <BookOpen className="h-8 w-8" />,
     title: "Educational Resources",
-    description: "Comprehensive guides and tutorials to improve your betting knowledge",
+    description: "Access comprehensive learning materials to master betting strategies",
     details: [
-      "Video training library",
-      "Strategy documentation",
-      "Expert webinars"
-    ]
+      "Strategy video library",
+      "Interactive workshops",
+      "Expert-led webinars"
+    ],
+    benefits: "Transform from novice to expert with structured learning"
   },
   {
     icon: <Target className="h-8 w-8" />,
     title: "Real-Time Picks",
-    description: "Get instant access to vetted betting opportunities and odds boosts",
+    description: "Receive instant notifications for high-value betting opportunities",
     details: [
-      "Instant notifications",
-      "Detailed analysis reports",
+      "Instant alert system",
+      "Detailed opportunity analysis",
       "Win probability scores"
-    ]
+    ],
+    benefits: "Never miss profitable betting opportunities"
   },
   {
     icon: <Shield className="h-8 w-8" />,
     title: "Risk Management",
-    description: "Learn proper bankroll management and strategic bet sizing",
+    description: "Master advanced bankroll management and strategic bet sizing",
     details: [
-      "Bankroll calculators",
-      "Risk assessment tools",
-      "Position sizing guides"
-    ]
+      "Dynamic bankroll calculator",
+      "Position sizing optimizer",
+      "Risk exposure analysis"
+    ],
+    benefits: "Protect and grow your betting bankroll systematically"
   },
   {
     icon: <ChartBar className="h-8 w-8" />,
     title: "Performance Analytics",
-    description: "Track your betting performance with detailed analytics and insights",
+    description: "Track and analyze your betting performance with detailed insights",
     details: [
-      "Personal ROI tracking",
-      "Win rate analysis",
-      "Trend identification"
-    ]
+      "Performance dashboards",
+      "Trend analysis tools",
+      "Profit visualization"
+    ],
+    benefits: "Optimize your strategy with data-driven insights"
   },
   {
     icon: <MessageSquare className="h-8 w-8" />,
     title: "24/7 Support",
-    description: "Get help when you need it from our community and expert contributors",
+    description: "Get expert assistance whenever you need it",
     details: [
-      "Discord chat support",
-      "Expert consultation",
-      "Strategy reviews"
-    ]
+      "Live Discord support",
+      "Strategy consultations",
+      "Technical assistance"
+    ],
+    benefits: "Never feel lost with our constant support"
   },
   {
     icon: <Zap className="h-8 w-8" />,
-    title: "Quick-Start Guides",
-    description: "Get up to speed quickly with our comprehensive onboarding resources",
+    title: "Quick-Start Program",
+    description: "Get up to speed quickly with our comprehensive onboarding",
     details: [
-      "Step-by-step tutorials",
+      "Guided learning path",
       "Strategy templates",
-      "Best practices"
-    ]
+      "Best practices guide"
+    ],
+    benefits: "Start winning from day one with structured guidance"
   }
 ];
 
@@ -133,7 +143,7 @@ export default function Features() {
             Why Choose PromoGuy Plus
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Transform your betting approach with our comprehensive suite of tools and expert community
+            Transform your betting approach with our comprehensive suite of tools, expert community, and proven strategies
           </p>
         </motion.div>
 
@@ -147,21 +157,46 @@ export default function Features() {
               viewport={{ once: true }}
               variants={fadeInUpVariant}
             >
-              <Card className="h-full hover:shadow-lg transition-all duration-300 border-primary/10 hover:border-primary/20">
+              <Card className="h-full hover:shadow-lg transition-all duration-300 border-primary/10 hover:border-primary/20 overflow-hidden group">
                 <CardContent className="p-6">
-                  <div className="text-primary mb-4">
-                    {feature.icon}
+                  <div className="relative">
+                    <div className="text-primary mb-4 transform group-hover:scale-110 transition-transform duration-300">
+                      {feature.icon}
+                    </div>
+                    <motion.div
+                      className="absolute -inset-1 bg-primary/5 rounded-full blur"
+                      animate={{
+                        scale: [1, 1.1, 1],
+                        opacity: [0.5, 0.8, 0.5],
+                      }}
+                      transition={{
+                        duration: 3,
+                        repeat: Infinity,
+                        ease: "easeInOut",
+                      }}
+                    />
                   </div>
+
                   <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
                   <p className="text-muted-foreground mb-4">{feature.description}</p>
-                  <ul className="space-y-2">
-                    {feature.details.map((detail, index) => (
-                      <li key={index} className="flex items-center text-sm">
-                        <Binary className="h-4 w-4 mr-2 text-primary" />
-                        {detail}
-                      </li>
-                    ))}
-                  </ul>
+
+                  <div className="space-y-4">
+                    <div className="space-y-2">
+                      {feature.details.map((detail, index) => (
+                        <div key={index} className="flex items-center text-sm group">
+                          <Binary className="h-4 w-4 mr-2 text-primary transform group-hover:rotate-180 transition-transform duration-300" />
+                          {detail}
+                        </div>
+                      ))}
+                    </div>
+
+                    <div className="pt-4 border-t border-primary/10">
+                      <div className="flex items-center text-sm text-primary">
+                        <Check className="h-4 w-4 mr-2" />
+                        <span className="font-medium">{feature.benefits}</span>
+                      </div>
+                    </div>
+                  </div>
                 </CardContent>
               </Card>
             </motion.div>
