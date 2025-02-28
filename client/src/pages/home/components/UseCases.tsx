@@ -10,6 +10,7 @@ import {
 import { Binary, Percent, DollarSign, TrendingUp } from "lucide-react";
 
 const useCases = [
+  //#1
   {
     title: "MLB Game Analysis",
     category: "Baseball",
@@ -20,6 +21,7 @@ const useCases = [
     outcome: "Successful +EV play with clear statistical advantage",
     icon: <Binary className="h-6 w-6" />
   },
+  //#2
   {
     title: "NBA Player Props",
     category: "Basketball",
@@ -30,6 +32,7 @@ const useCases = [
     outcome: "Multiple successful parlays based on correlated outcomes",
     icon: <TrendingUp className="h-6 w-6" />
   },
+  //#3
   {
     title: "UFC Fight Night",
     category: "MMA",
@@ -40,6 +43,7 @@ const useCases = [
     outcome: "Guaranteed profit through strategic line shopping",
     icon: <DollarSign className="h-6 w-6" />
   },
+  //#4
   {
     title: "NFL Game Total",
     category: "Football",
@@ -50,6 +54,7 @@ const useCases = [
     outcome: "Successfully predicted under in adverse conditions",
     icon: <Percent className="h-6 w-6" />
   },
+  //#5
   {
     title: "NHL Goal Scoring",
     category: "Hockey",
@@ -60,6 +65,7 @@ const useCases = [
     outcome: "Accurate prediction of high-scoring matchup",
     icon: <TrendingUp className="h-6 w-6" />
   },
+  //#6
   {
     title: "Tennis Grand Slam",
     category: "Tennis",
@@ -70,6 +76,7 @@ const useCases = [
     outcome: "Multiple successful set betting predictions",
     icon: <Binary className="h-6 w-6" />
   },
+  //#7
   {
     title: "Soccer Goal Lines",
     category: "Soccer",
@@ -80,6 +87,7 @@ const useCases = [
     outcome: "Profitable series of Asian handicap bets",
     icon: <DollarSign className="h-6 w-6" />
   },
+  //#8
   {
     title: "Golf Tournament",
     category: "Golf",
@@ -90,6 +98,7 @@ const useCases = [
     outcome: "Multiple winning head-to-head selections",
     icon: <Percent className="h-6 w-6" />
   },
+  //#9
   {
     title: "Boxing Title Fight",
     category: "Boxing",
@@ -100,6 +109,7 @@ const useCases = [
     outcome: "Accurate method of victory prediction",
     icon: <TrendingUp className="h-6 w-6" />
   },
+  //#10
   {
     title: "F1 Race Winner",
     category: "Racing",
@@ -110,6 +120,7 @@ const useCases = [
     outcome: "Successful longshot winner prediction",
     icon: <Binary className="h-6 w-6" />
   },
+  //#11
   {
     title: "Cricket Match",
     category: "Cricket",
@@ -120,6 +131,7 @@ const useCases = [
     outcome: "Profitable innings total predictions",
     icon: <DollarSign className="h-6 w-6" />
   },
+  //#12
   {
     title: "Rugby Tournament",
     category: "Rugby",
