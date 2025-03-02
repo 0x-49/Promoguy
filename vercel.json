@@ -2,13 +2,11 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist/public",
   "routes": [
+    { "handle": "filesystem" },
     {
       "src": "/(.*)",
-      "dest": "/dist/public/$1",
-      "status": 200,
-      "headers": {
-        "Content-Type": "text/html; charset=UTF-8"
-      }
+      "dest": "/index.html",
+      "status": 200
     }
   ],
   "env": {
