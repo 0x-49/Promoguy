@@ -4,7 +4,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/client/$1",
+      "dest": "/dist/public/$1",
       "status": 200,
       "headers": {
         "Content-Type": "text/html; charset=UTF-8"
