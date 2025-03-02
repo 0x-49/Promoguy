@@ -130,16 +130,17 @@ const fadeInUpVariant = {
 
 export default function Features() {
   return (
-    <section id="features" className="py-20 bg-accent/5">
-      <div className="container mx-auto px-4">
+    <section id="features" className="py-24 bg-gradient-to-b from-accent/5 to-background relative overflow-hidden">
+      <div className="container mx-auto px-4 relative">
+        <div className="absolute inset-0 bg-grid-white/[0.02] bg-grid-repeat [mask-image:radial-gradient(ellipse_at_center,black_50%,transparent_100%)]"/>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-center mb-16"
+          className="text-center mb-20 relative z-10"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/80">
             Why Choose PromoGuy Plus
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -147,7 +148,7 @@ export default function Features() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 relative z-10">
           {features.map((feature, i) => (
             <motion.div
               key={feature.title}

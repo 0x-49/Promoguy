@@ -146,16 +146,17 @@ const useCases = [
 
 export default function UseCases() {
   return (
-    <section className="py-20 bg-background">
-      <div className="container mx-auto px-4">
+    <section className="py-24 bg-gradient-to-b from-background to-accent/5">
+      <div className="container mx-auto px-4 relative">
+        <div className="absolute inset-0 bg-grid-white/[0.02] bg-grid-repeat [mask-image:radial-gradient(ellipse_at_center,black_50%,transparent_100%)]"/>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-center mb-16"
+          className="text-center mb-20 relative z-10"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/80">
             Real Success Stories
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -168,22 +169,23 @@ export default function UseCases() {
             align: "start",
             loop: true,
           }}
-          className="w-full max-w-6xl mx-auto"
+          className="w-full max-w-7xl mx-auto relative z-10"
         >
           <CarouselContent className="-ml-2 md:-ml-4">
             {useCases.map((useCase, index) => (
               <CarouselItem key={index} className="pl-2 md:pl-4 md:basis-1/2 lg:basis-1/3">
                 <div className="p-1">
-                  <Card className="border-primary/10 hover:border-primary/20 transition-colors">
+                  <Card className="border-primary/10 hover:border-primary/20 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-1">
+                  <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg"/>
                     <CardContent className="p-6">
-                      <div className="flex items-center justify-between mb-4">
-                        <span className="text-sm font-medium text-muted-foreground">
+                      <div className="flex items-center justify-between mb-6">
+                        <span className="text-sm font-semibold text-primary/80 bg-primary/5 px-3 py-1 rounded-full">
                           {useCase.category}
                         </span>
                         <div className="text-primary">{useCase.icon}</div>
                       </div>
                       
-                      <h3 className="text-xl font-semibold mb-2">{useCase.title}</h3>
+                      <h3 className="text-2xl font-bold mb-3 text-foreground/90">{useCase.title}</h3>
                       <p className="text-muted-foreground mb-4">{useCase.description}</p>
                       
                       <div className="space-y-4">

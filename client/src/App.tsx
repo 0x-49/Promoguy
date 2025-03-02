@@ -8,6 +8,7 @@ import Home from "@/pages/home";
 import Navigation from "@/components/ui/navigation";
 import Footer from "@/components/ui/footer";
 import PrivacyPolicy from "@/pages/legal/privacy-policy";
+import TermsOfService from "@/pages/legal/terms";
 
 // Common metadata for SEO
 const defaultMeta = {
@@ -24,6 +25,7 @@ function Router() {
         <Switch>
           <Route path="/" component={Home} />
           <Route path="/legal/privacy-policy" component={PrivacyPolicy} />
+          <Route path="/legal/terms" component={TermsOfService} />
           <Route component={NotFound} />
         </Switch>
       </main>
